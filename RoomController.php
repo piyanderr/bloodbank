@@ -8,21 +8,21 @@
 
  class RoomController {
 
-    rooms table 
-    id = 1 , name = economy
-    id = 2 , name = deluxe
+    // rooms table 
+    // id = 1 , name = economy
+    // id = 2 , name = deluxe
 
-    users table
-    id = 1 , name = brye
-    id = 2 , name = piyander
+    // users table
+    // id = 1 , name = brye
+    // id = 2 , name = piyander
 
 
-    public function index () {
+    // public function index () {
 
  
-        $orders = Order::all();
+    //     $orders = Order::all();
         
-        return view('orders.home.index')
+    //     return view('orders.home.index')
 
 
         //Model Class  :: <-- static function 
@@ -30,21 +30,21 @@
         // $user = User::find(2); // $user = { 'id' => 2, 'name' => 'piyander',}
 
 
-         //        Model -> rooms table -> DB 
-        //       SELECT * FROM rooms
+         //Model -> rooms table -> DB 
+        // SELECT * FROM rooms
         // $rooms = Room::all(); 
 
         // return view('roomlist', compact('rooms'));
 
 
-    }
+    // }
 
 
     
 
 
-    public function create () {
+//     public function create () {
 
-    }
+//     }
 
- }
+//  }

@@ -41,14 +41,6 @@
             </div>
           </div>
         </main>
-
-
-        <?php
-          foreach($results as $order) {
-            echo $order->
-          }
-        ?>
-
       </div>
     </div>
 
