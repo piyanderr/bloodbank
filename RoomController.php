@@ -6,7 +6,7 @@
 
  use App\Models\Room;
 
- class RoomController {
+//  class RoomController {
 
     // rooms table 
     // id = 1 , name = economy
