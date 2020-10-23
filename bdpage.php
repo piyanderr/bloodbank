@@ -22,7 +22,6 @@
             <script src="vendor/jquery/jquery.min.js"></script>
             <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
-            
             <!--The CSS is external-->
 
             <link href="css/bdsidebar.css" rel="stylesheet">

@@ -1,3 +1,19 @@
+<?php
+
+  include_once ('C:/xampp/htdocs/bd/connect.php');
+
+  $query = 'SELECT * FROM orders';
+  $results = $conn->query($query);
+  $results = $results->fetch_assoc();
+ 
+
+  $result->orderAmount * 10;
+
+  $conn->close();
+
+?>
+
+
 
 <!doctype html>
 <html lang="en">
@@ -26,6 +42,12 @@
           </div>
         </main>
 
+
+        <?php
+          foreach($results as $order) {
+            echo $order->
+          }
+        ?>
 
       </div>
     </div>
